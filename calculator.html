@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://kit.fontawesome.com/e6419a3515.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1>calculator</h1>
+    <div class="wrapperdiv">
+        <form action="display" class="display"></form>
+        <label for=""></label>
+        <div class="calculator">
+            <input type="text" id="numberdisplay" >
+            <div class="calculatorkeys">
+                <button type="button" id="clear" >C</button>
+                <button style="font-size: 2rem;" type="button" id="divide" data-operation>&divide;</button>
+                <button style="font-size: 2rem;" type="button" id="multiply" data-operation>&times;</button>
+                <button type="button" id="delete"><i class="fa-solid fa-delete-left"></i></button>
+                <button type="button" id="seven" data-number>7</button>
+                <button type="button" id="eight" data-number>8</button>
+                <button type="button" id="nine" data-number>9</button>
+                <button type="button" id="subtract" data-operation>-</button>
+                <button type="button" id="four" data-number>4</button>
+                <button type="button" id="five" data-number>5</button>
+                <button type="button" id="six" data-number>6</button>
+                <button type="button" id="add" data-operation>+</button>
+                <button type="button" id="one" data-number>1</button>
+                <button type="button" id="two" data-number>2</button>
+                <button type="button" id="three" data-number>3</button>
+                <button style="grid-row: span 2;height:120px" type="button"
+                    id="equal-to" data-operation="">=</button>
+                <button type="button" id="per-cent"data-operation >%</button>
+                <button type="button" id="zero"data-number>0</button>
+                <button type="button" id="decimal"data-number>.</button>
+                </script>
+            </div>
+
+
+        </div>
+        <script src="calculator.js"></script>
+</body>
+
+</html>
